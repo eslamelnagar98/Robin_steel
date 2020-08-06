@@ -1,0 +1,140 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+body
+{
+
+    
+}
+
+.title h2
+{
+    font-size: 5rem;
+    color: #f1f1f1;
+}
+.title h3
+{
+    font-size: 2.5rem;
+}
+
+.title h2,.title h3
+{
+    font-weight: 800;
+    
+}
+.about_image
+{
+    -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+#about
+{
+    background-image: url(../img/light_dot.jpg);
+
+}
+.main_color
+{
+    color: #ff2060 !important;
+}
+header
+{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+header h1
+{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.icon
+{
+    width: 2.25rem;
+    height: 2.25rem;
+    border: solid 1px rgba(255, 255, 255, 0.25);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#content_sec
+{
+    background-image: url(../img/dark_dot.jpg);
+}
+.title_2 h2
+{
+    font-size: 5rem;
+    color: #222;
+    
+}
+.title_2 h3
+{
+    font-size: 2.5rem;
+    color: #f1f1f1;
+}
+
+.title_2 h2,.title_2 h3
+{
+    font-weight: 800;
+    
+}
+.section_icons h3
+{
+    color: black;
+    font-weight: 600;
+    font-size: 1.75rem;
+    position: relative;
+}
+
+.section_icons h3::after
+{
+    content:'';
+    background-color:#ff2060;
+    width: 20%;
+    height: 1px;
+    position: absolute;
+    top: 100%;
+    left: 40%;
+
+}
+.services_item .icon
+{
+    background-color: black;
+    color: white;
+    position: absolute;
+    border: solid 2px #fff;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.services_item
+{
+    margin: 20px 0px;
+}
+#portfolio
+{
+    background-image: url(../img/light_dot.jpg);
+}
+#portfolio .nav-pills .nav-link.active, .nav-pills .show>.nav-link
+{
+background-color: transparent;
+color: #000;
+}
+#portfolio a
+{
+    color: #000 !important;
+}
+.tap_item
+{
+    margin-top: 15px;
+}
